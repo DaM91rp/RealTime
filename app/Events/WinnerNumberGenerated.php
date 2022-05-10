@@ -22,7 +22,7 @@ class WinnerNumberGenerated implements ShouldBroadcast
      */
     public function __construct($number)
     {
-        $this->$number = $number;
+        $this->number = $number;
 
     }
 

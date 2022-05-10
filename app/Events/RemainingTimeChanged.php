@@ -22,7 +22,7 @@ class RemainingTimeChanged implements ShouldBroadcast
      */
     public function __construct($time)
     {
-        $this->$time = $time;
+        $this->time = $time;
 
     }
 

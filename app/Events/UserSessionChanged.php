@@ -23,8 +23,8 @@ class UserSessionChanged implements ShouldBroadcast
      */
     public function __construct($message,$type)
     {
-        $this->$message = $message;
-        $this->$type = $type;
+        $this->message = $message;
+        $this->type = $type;
     }
 
     /**
